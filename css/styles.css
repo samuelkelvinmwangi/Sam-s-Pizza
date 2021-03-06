@@ -205,3 +205,15 @@ body{
     font-size: 12px;
     transition: 0.3s;
 }
+.variety .read-more a:hover{
+    color: #854101;
+}
+.variety .card:hover img{
+    transform: scale(1.1);
+}
+.variety .card:hover .card-body{
+    border-color: #fdc134;
+}
+.variety .card:hover .card-body .card-title a{
+    color:#854101
+}
