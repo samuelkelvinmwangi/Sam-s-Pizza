@@ -54,3 +54,34 @@ body{
 .social-icon p a:hover i{
     color: #fff;
 }
+
+/* ====Navbar sarts here==== */
+.bg-color{
+    background: #0f0f0ffb;
+}
+.navbar-brand{
+    color: #f8aa02;
+    font-weight: bold;
+    font-size: 35px!important;
+}
+.nav-link{
+    font-weight: bold;
+    color: #f8aa02;
+    font-size: 20px;
+}
+.btn-group{
+    color: #f8aa02;
+}
+navbar-toggle i{
+    color: #f8aa02;
+}
+/* ===Navbar ends here==== */
+
+/* ===Hero Section starts here ====*/
+#hero{
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/home.jpg) top center;
+    background-size: cover;
+}
