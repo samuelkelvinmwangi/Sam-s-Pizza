@@ -254,15 +254,6 @@ body {
   border-radius: 4px;
   transition: all 0.3s ease;
 }
-.product .img .icons .icon-block a {
-  margin: 0 2px;
-  width: 60px;
-  height: 60px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-}
-.product .img .icons .icon-block a i {
-  color: white;
-}
 .product .text {
   padding: 20px;
   position: relative;
@@ -302,9 +293,6 @@ body {
 .product:hover .img:after {
   opacity: .7;
 }
-.product:hover .img .icons{
-  opacity: 1;
-}
 .glow {
   display: inline-block;
   vertical-align: middle;
@@ -332,6 +320,7 @@ body {
   position: absolute;
   z-index: -1;
   left: 51%;
+  right: 51%;
   top: 0;
   background: #fe9801;
   height: 4px;
