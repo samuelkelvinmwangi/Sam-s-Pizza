@@ -153,8 +153,6 @@ body{
 
 /* ===Category Section starts here ====*/
 
-
-/* ===Category Section Ends here ====*/
 .variety{
     padding-bottom: 40px;
 }
@@ -217,3 +215,76 @@ body{
 .variety .card:hover .card-body .card-title a{
     color:#854101
 }
+/* ===Category Section Ends here ====*/
+
+/* ===variety Section starts here ====*/
+
+.bg-img{
+    background: black;
+}
+.text-color{
+    color:#fe9801;
+}
+.product-section h2{
+    font-style: italic;
+    font-size: 40px;
+}
+.product{
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+}
+.product .img{
+    display: block;
+    border-radius: 4px;
+    height: 350px;
+    position: relative;
+    transition: all 0.3s ease;
+    z-index: 0;
+}
+.product .img:after{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #000;
+    opacity: 0;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.product .img .icons .icon-block a{
+    margin: 0 2px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+.product .img .icons .icon-block a i{
+    color: white;
+}
+.product .text{
+    padding: 20px;
+    position: relative;
+}
+.product .text .out,.product .text .day,
+.product .text .week{
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-size: 12px;
+    padding: 0 10px;
+    color: #fff;
+}
+.product .text .out{
+    background: #b7472a;
+}
+.product .text .day{
+    background: #fe9801;
+}
+.product .text .week{
+    background: #01d28e;
+}
+/* ===variety Section Ends here ====*/
