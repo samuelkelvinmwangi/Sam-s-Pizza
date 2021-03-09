@@ -335,3 +335,49 @@ body {
   right: 0;
 }
 /* ===variety Section Ends here ====*/
+
+/* ===order Section starts here ====*/
+.order{
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("../images/Marinara-pizza.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.order-overlay{
+  background-color: rgba(241, 159, 5, 0.5);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  padding-left: 6%;
+}
+.choice{
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.deliver{
+  display: none;
+}
+.delivery{
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td,th{
+  font-size: 20px;
+  color: #fff;
+}
+.choice h2{
+  color: #000;
+  text-align: left; 
+}
+#your-orders{
+  color: #000;
+  font-size: 30px;
+}
+
+/* ===order Section Ends here ====*/

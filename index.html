@@ -336,8 +336,9 @@
     <!--types section ends here-->
 
     <!--order section starts here-->
-    <section class="order">
-      <div class="container-fluid order" id="make-order">
+  <section class="order">
+    <div class="container-fluid order" id="make-order">
+      <div class="order-overlay">
         <div class="controls-top text-center" id="order-now">
           <h2>Order</h2>
         </div>
@@ -412,17 +413,41 @@
                       <th scope="col">Total</th>
                     </tr>
                   </thead>
+                  <tbody id="ordersmade">
+                    <tr>
+                      <td id="pizzaname"></td>
+                      <td id="pizzasize"></td>
+                      <td id="pizzacrust"></td>
+                      <td id="pizzatopping"></td>
+                      <td id="totals"></td>
+                    </tr>
+                  </tbody>
                 </table>
+                <p id="pizzatotal"></p>
+                <p id="totalbill"></p> 
+                <p id="addedprice">Delivery @ ksh200</p>
+                <p id="finallmessage"></p>
               </div>
+              <button class="btn btn-orange addPizza">Add Pizza</button>
+              <button class="btn btn-orange" id="checkout">Checkout</button>
+              <button class="btn btn-orange deliver">Delivery</button>
+              <button class="btn btn-orange deliver">Paid</button>
+            </div>
+            <div class="delivery">
+              <form action="">
+                <div class="form-group">
+                  <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                  <input type="number" id="phone" class="form-control mb-3" placeholder="contact">
+                  <input type="text" id="location" class="form-control mb-3" placeholder="Location">
+                  <button class="btn btn-orange" id="final-order">Deliver</button>
+                </div>
+              </form
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-
-
-
+    </div>
+  </section>
 
     <!--order section ends here-->
 
